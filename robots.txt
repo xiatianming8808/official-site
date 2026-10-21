@@ -1,0 +1,3 @@
+﻿User-agent: *
+Allow: /
+Sitemap: https://xiatianming8808.github.io/official-site/sitemap.xml
