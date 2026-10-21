@@ -553,3 +553,15 @@ img, svg { display: block; }
   html { scroll-behavior: auto; }
   .typing i { animation: none; }
 }
+
+/* ---------------- 可访问性：键盘焦点 ---------------- */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+.hero-card .chat { transition: transform .4s cubic-bezier(.22, 1, .36, 1); }
+.hero-card:hover .chat { transform: translateY(-6px); }
