@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>云栖智能 · YunQi AI｜让每个想法都有 AI 帮你落地</title>
+  <meta name="description" content="云栖智能是一家专注 AI 应用落地的软件工作室，提供企业级 AI 助手、数据看板与全栈 Web 应用开发服务。" />
+  <meta name="theme-color" content="#070b16" />
+  <meta property="og:title" content="云栖智能 · YunQi AI" />
+  <meta property="og:description" content="让每个想法，都有 AI 帮你落地。" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#5eead4" />
+              <stop offset="100%" stop-color="#818cf8" />
+            </linearGradient>
+          </defs>
+          <path d="M16 3l3.6 8.4L28 15l-8.4 3.6L16 27l-3.6-8.4L4 15l8.4-3.6z" fill="url(#g1)" />
+        </svg>
+        <span class="brand-name">云栖智能<span class="brand-en">YunQi AI</span></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#products">产品</a>
+        <a href="#capability">能力</a>
+        <a href="#pricing">价格</a>
+        <a href="#team">团队</a>
+        <a href="#contact">联系</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-ghost" href="#contact">登录</a>
+        <a class="btn btn-primary" href="#pricing">免费试用</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <span class="pill"><i class="dot"></i> v2.0 已上线 · 支持私有化部署</span>
+        <h1>让每个想法，<br />都有 AI <span class="grad">帮你落地</span></h1>
+        <p class="lead">
+          云栖智能专注把大模型变成真正能用的产品：从一句话需求，到可上线的全栈应用。
+          我们已经交付 <b>38</b> 个 AI 应用，服务教育、零售与制造业客户。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="#products">看看我们做了什么</a>
+          <a class="btn btn-outline btn-lg" href="#contact">预约产品演示</a>
+        </div>
+        <ul class="metrics">
+          <li><b data-count="38">0</b><span>上线项目</span></li>
+          <li><b data-count="12">0</b><span>合作客户</span></li>
+          <li><b data-count="99" data-suffix="%">0</b><span>服务可用性</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-card reveal" aria-hidden="true">
+        <div class="chat">
+          <div class="chat-head">
+            <span class="chat-avatar">AI</span>
+            <div>
+              <strong>云栖助手</strong>
+              <em>在线 · 响应 0.8s</em>
+            </div>
+            <span class="chat-badge">GLM-4</span>
+          </div>
+          <div class="chat-body">
+            <div class="bubble user">帮我把这周的实训内容整理成一份周报</div>
+            <div class="bubble ai">
+              <p>已根据 12 条记录生成周报：</p>
+              <ul>
+                <li>本周完成 3 个模块联调</li>
+                <li>修复 7 个缺陷，回归通过率 100%</li>
+                <li>下周计划：接入 Agent 工作流</li>
+              </ul>
+              <div class="bubble-actions"><span>复制</span><span>导出 Markdown</span></div>
+            </div>
+            <div class="typing"><i></i><i></i><i></i></div>
+          </div>
+          <div class="chat-input">
+            <span>继续输入，或上传文件…</span>
+            <button class="send">↑</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section class="section container" id="products">
+      <div class="section-head reveal">
+        <span class="eyebrow">PRODUCTS</span>
+        <h2>三个正在跑的产品</h2>
+        <p>从校园场景出发，把"能用"放在"好看"前面。</p>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-icon">📚</div>
+          <h3>拾光书市</h3>
+          <p>校园二手书交易平台。按学院与课程筛选，扫码即发布，三天内成交率 62%。</p>
+          <ul class="tags"><li>React</li><li>本地优先</li><li>移动端适配</li></ul>
+          <a class="card-link" href="#contact">了解详情 →</a>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">🗂️</div>
+          <h3>智汇周报</h3>
+          <p>把零散的工作条目，一键整理成结构化周报，支持 Markdown 导出与历史回溯。</p>
+          <ul class="tags"><li>Prompt 工程</li><li>模板引擎</li><li>隐私优先</li></ul>
+          <a class="card-link" href="#contact">了解详情 →</a>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">🎓</div>
+          <h3>课栈 ClassStack</h3>
+          <p>实训课程协作平台：作业发布、提交批改、讨论区与学习看板，全流程留痕。</p>
+          <ul class="tags"><li>Next.js</li><li>PostgreSQL</li><li>AI 助教</li></ul>
+          <a class="card-link" href="#contact">了解详情 →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Capability -->
+    <section class="section container" id="capability">
+      <div class="section-head reveal">
+        <span class="eyebrow">HOW WE WORK</span>
+        <h2>四步，把想法变成可访问的网址</h2>
+      </div>
+      <ol class="steps">
+        <li class="reveal">
+          <span class="step-no">01</span>
+          <h3>需求澄清</h3>
+          <p>一份 PRD 说清给谁用、解决什么问题、第一版砍掉什么。</p>
+        </li>
+        <li class="reveal">
+          <span class="step-no">02</span>
+          <h3>界面与数据建模</h3>
+          <p>先画页面骨架与数据表，再写第一行代码，避免返工。</p>
+        </li>
+        <li class="reveal">
+          <span class="step-no">03</span>
+          <h3>AI 协作开发</h3>
+          <p>用 Cursor + MCP + Skill 把重复工作交给智能体，人只做决策。</p>
+        </li>
+        <li class="reveal">
+          <span class="step-no">04</span>
+          <h3>上线与观测</h3>
+          <p>CI 部署到边缘网络，接入日志与看板，用数据决定下一次迭代。</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section container" id="pricing">
+      <div class="section-head reveal">
+        <span class="eyebrow">PRICING</span>
+        <h2>按需选择，随时升级</h2>
+        <p>学生与个人开发者永久免费。</p>
+      </div>
+      <div class="pricing">
+        <article class="price-card reveal">
+          <h3>个人版</h3>
+          <p class="price"><span>¥</span>0<em>/月</em></p>
+          <p class="price-desc">适合个人与小团队试水</p>
+          <ul>
+            <li>1 个应用实例</li>
+            <li>每月 1,000 次 AI 调用</li>
+            <li>社区支持</li>
+          </ul>
+          <a class="btn btn-outline full" href="#contact">立即开始</a>
+        </article>
+        <article class="price-card featured reveal">
+          <span class="ribbon">最受欢迎</span>
+          <h3>团队版</h3>
+          <p class="price"><span>¥</span>299<em>/月</em></p>
+          <p class="price-desc">面向 5–50 人的产品团队</p>
+          <ul>
+            <li>10 个应用实例</li>
+            <li>每月 50,000 次 AI 调用</li>
+            <li>自定义域名 + 数据看板</li>
+            <li>工作日 4 小时响应</li>
+          </ul>
+          <a class="btn btn-primary full" href="#contact">免费试用 14 天</a>
+        </article>
+        <article class="price-card reveal">
+          <h3>企业版</h3>
+          <p class="price"><span>¥</span>定制</p>
+          <p class="price-desc">私有化部署与合规要求</p>
+          <ul>
+            <li>独立集群与数据隔离</li>
+            <li>SSO / 审计日志</li>
+            <li>专属交付与培训</li>
+          </ul>
+          <a class="btn btn-outline full" href="#contact">联系我们</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="section container" id="team">
+      <div class="section-head reveal">
+        <span class="eyebrow">TEAM</span>
+        <h2>一个很小的团队</h2>
+        <p>三个人，一个目标：把 AI 做成基础设施。</p>
+      </div>
+      <div class="team">
+        <article class="member reveal">
+          <div class="avatar" style="--c1:#5eead4;--c2:#22d3ee">夏</div>
+          <h3>夏天明</h3>
+          <p class="role">创始人 / 全栈工程师</p>
+          <p>负责产品定义与前后端实现，偏好"先跑通再优化"。</p>
+        </article>
+        <article class="member reveal">
+          <div class="avatar" style="--c1:#a78bfa;--c2:#818cf8">林</div>
+          <h3>林知遥</h3>
+          <p class="role">AI 工程</p>
+          <p>负责 RAG 链路、提示词与评测集，关注回答的可解释性。</p>
+        </article>
+        <article class="member reveal">
+          <div class="avatar" style="--c1:#fbbf24;--c2:#f472b6">陈</div>
+          <h3>陈可为</h3>
+          <p class="role">设计 / 前端体验</p>
+          <p>负责设计系统与交互动效，坚持"每个像素都要有理由"。</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section container" id="contact">
+      <div class="contact reveal">
+        <div class="contact-copy">
+          <h2>聊聊你的项目</h2>
+          <p>告诉我们场景，48 小时内给出一版可点开的原型。</p>
+          <ul class="contact-list">
+            <li><span>邮箱</span> hello@yunqi.studio</li>
+            <li><span>微信</span> yunqi-ai</li>
+            <li><span>地址</span> 南京 · 仙林大学城</li>
+          </ul>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">称呼</label>
+            <input id="name" name="name" placeholder="怎么称呼你" required />
+          </div>
+          <div class="field">
+            <label for="email">邮箱</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          </div>
+          <div class="field">
+            <label for="msg">想解决的问题</label>
+            <textarea id="msg" name="msg" rows="4" placeholder="例如：想把实训作业的批改流程自动化"></textarea>
+          </div>
+          <button class="btn btn-primary full" type="submit">提交需求</button>
+          <p class="form-tip" id="formTip" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-name">云栖智能<span class="brand-en">YunQi AI</span></span>
+        <p>让每个想法，都有 AI 帮你落地。</p>
+      </div>
+      <nav class="footer-links">
+        <a href="#products">产品</a>
+        <a href="#capability">能力</a>
+        <a href="#pricing">价格</a>
+        <a href="#contact">联系</a>
+      </nav>
+      <p class="copyright">© <span id="year">2026</span> 云栖智能 · 苏ICP备2026000000号</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
